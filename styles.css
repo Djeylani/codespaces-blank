@@ -1,0 +1,59 @@
+/*
+DONE --- Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size
+Your img element should be centered within its parent element
+Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+*/
+
+body {
+    background-color: #f07830;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main {
+    background-color: #5c5754;
+    color: #e6e6e4;
+    width: 90%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+
+
+#img-div {
+    width: 100%;
+    height: auto;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+img {
+    width: 600px;
+}
+
+.container {
+    margin-top: 80px;
+    border-top: 4px solid #1b1b32;
+}
+
+.tribute-list > ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+ul > li {
+    padding: 25px;
+    font-size: 18px;
+}
